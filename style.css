@@ -36,31 +36,20 @@ font-size: 50px;
     background-color: #141414;
     cursor: pointer;
 }
-@media (max-width: 500px) {
-    .game, .title {
-      width: 180px;
-    }
-  
-    .square {
-      width: 55px;
-      height: 55px;
-      font-size: 30px;
-      margin: 2px;
-    }
-  
-    .title {
-      font-size: 16px;
-    }
+@media (max-width: 600px) {
+  .game {
+    width: 90vw;
   }
-  @media (max-width: 350px) {
-    .game, .title {
-      width: 150px;
-    }
-  
-    .square {
-      width: 45px;
-      height: 45px;
-      font-size: 24px;
-    }
+
+  .title {
+    width: 100%;
+    font-size: 20px;
   }
-    
+
+  .square {
+    width: 28vw;
+    height: 28vw;
+    font-size: 8vw;
+    margin: 1vw;
+  }
+}
