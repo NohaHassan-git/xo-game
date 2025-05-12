@@ -36,7 +36,7 @@ font-size: 50px;
     background-color: #141414;
     cursor: pointer;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .game {
     width: 90vw;
   }
