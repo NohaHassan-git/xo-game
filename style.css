@@ -1,0 +1,66 @@
+
+.game{
+    width: 255px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+    .title {
+        padding: 10px 0;
+        margin-bottom: 10px;
+        background-color: #404040;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+      }
+      
+
+
+
+span{
+    color: #ff7f00;
+
+}
+.square{
+width: 80px;
+height: 80px;
+background-color:#404040;
+float: left;
+margin: 2px;
+font-size: 50px;
+}
+.square:hover{
+    background-color: #141414;
+    cursor: pointer;
+}
+@media (max-width: 500px) {
+    .game, .title {
+      width: 180px;
+    }
+  
+    .square {
+      width: 55px;
+      height: 55px;
+      font-size: 30px;
+      margin: 2px;
+    }
+  
+    .title {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 350px) {
+    .game, .title {
+      width: 150px;
+    }
+  
+    .square {
+      width: 45px;
+      height: 45px;
+      font-size: 24px;
+    }
+  }
+    
